@@ -2,6 +2,7 @@
   "name": "shorturl-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "regist",
   "dependencies": {
     "@fontsource/noto-sans-kr": "^4.5.9",
     "@reduxjs/toolkit": "^1.8.1",
