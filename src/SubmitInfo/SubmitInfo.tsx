@@ -49,8 +49,7 @@ const SubmitInfo = ({ onFinished }: Props) => {
       className={style.parent}>
       {status === 'pending' && '잠시만 기다려주세요...'}
       {status === 'resolved' && (
-        <div>
-          {longURL}를
+        <div className={style.modal}>
           {shortPath}로 줄였어요!
 
           <button
@@ -62,7 +61,7 @@ const SubmitInfo = ({ onFinished }: Props) => {
       )}
 
       {status === 'rejected' && (
-        <div>
+        <div className={style.modal}>
           오류! {error}
           
           <button
