@@ -1,0 +1,47 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  display: flex;
+  color: #212121;
+  font-size: 18px;
+  background-color: #eaeaea;
+  box-shadow: 0px 0px 10px black;
+  transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 2px;
+}
+
+.prefix {
+  padding: 10px 20px;
+}
+
+.input {
+  display: flex;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.frame:focus-within {
+  padding: 2.5px 5px;
+}
+
+.frame:focus-within {
+  background-color: #dadada;
+}
+
+.input:focus {
+  background-color: #eaeaea;
+}
